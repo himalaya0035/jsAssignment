@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+body {
+    background: #ABBF80;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.calculator {
+    width: 400px;
+    height: auto;
+    background: #A7DDF2;
+    padding: 10px;
+}
+.screen {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0px 3px 2px 0px rgba(105,105,105,0.5);
+    padding: 10px;
+    text-align: right;
+}
+.blinkingCursor{
+    animation: 1s blink step-end infinite;
+}
+@keyframes blink {
+    from{
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+
+.calculatorKeys{
+    margin-top: 10px;
+}
+.keysRow{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.keysRow:last-of-type {
+    margin-bottom: 0px;
+}
+.keysRow button{
+    flex: 1;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 2px 0px rgba(105,105,105,0.5);
+    border: none;
+    font-size: 18px;
+    font-size: 600;
+    cursor: pointer;
+}
+.numericKeys{
+    background-color: #EAF2E4;
+}
+.operatorKeys{
+    background-color: #EFF294;
+}
+#clearKey{
+    background-color: #F29BAB;
+}
+

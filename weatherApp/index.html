@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weatherCardContainer">
+            <div class="top_bar">
+                <a id="favourites" href="#"><i class="fa fa-heart-o" id="favIcon"
+                        style="font-size: 18px; font-weight: 100;"></i></a>
+                <div class="searchBar" action="">
+                    <input spellcheck="false" type="text" id="searchBox" placeholder="Search City...">
+                    <a href="#" id="searchIcon"><img src="img/searchicon.svg" alt="" width="18"></a>
+                </div>
+
+            </div>
+            <div class="mainSection">
+                
+            </div>
+            <i class="fa fa-spin fa-spinner" id="loader"></i>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
