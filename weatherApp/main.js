@@ -1,5 +1,5 @@
 const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather?q='
-const API_KEY = 'API_KEY'; // can not push my api key in github
+const API_KEY = 'API_KEY'; // can not push my api key
 
 const mainSection = document.getElementsByClassName('mainSection')[0];
 const searchBox = document.getElementById('searchBox');
